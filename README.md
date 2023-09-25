@@ -35,16 +35,14 @@
 - pandas
 - numpy
 
-### Использованные данные
-В работе использовались обезличенные данные от РЖД:
-- `train_dataset_Безопасный маршрут`
-
 ### Установка
 `pip install ultralytics`  
 `pip install opencv-python`      
 `pip install pandas`  
 `pip install numpy` 
 
+### Входные данные
+- Видео поток с камер подвижного состава (фронтальная/левая/правая камеры)
 
 ### Пример использования 
     model = YOLO('yolov8n.pt')
